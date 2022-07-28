@@ -1,0 +1,133 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Chad
+  last_name: Grubbs
+
+  # Define yourself in 4-5 words
+  motto: Leave me be
+
+  # focus
+  focus: Becomming a programmer
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Current medical sales rep. Learning to become a full stack developer for a career change
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: chadMGrubbs@gmail.com #optional
+  phone: 954-650-8821 #optional
+  website:  #optional
+  linkedin: https://www.linkedin.com/in/chad-grubbs/ #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Chadmichaelg
+
+  twitter:  #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: 
+      level: 
+
+  # Interests or hobies
+  interests:
+    - item: kayaking
+
+    - item: movies
+
+    - item: drawing
+
+# Your previous education
+education:
+  - degree: Bachelors
+    university: Florida Atlantic University
+    # optional
+    university_logo: https://logos-world.net/wp-content/uploads/2020/06/Florida-Atlantic-Owls-Logo-2005-Present.jpg
+    time: 1999 - 2001
+    details: |
+      I have a bachelors degree in graphic design
+  - degree: 
+    university: 
+    # optional
+    university_logo: 
+    time: 
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+  - role: sales/marketing
+    time: 2020 - Present
+    company: International Institute of Sleep
+    # optional
+    company_logo: 
+    details: |
+      Accountable for establishing and growing the Broward and Dade County territory.
+      Identified physician and staff needs and emphasized benefits for enhancing patient care.
+  - role: Sales
+    time: 2019 - 2020
+    company: Preferred Mens Medical Center
+    # optional
+    company_logo: 
+    details: |
+      Responsible for advancing business development initiatives by marketing ED services to
+      potential and existing clients.
+      Qualify potential clients, conduct consultations to identify individual needs, and close sales for
+      doctor-prescribed treatment programs.
+  - role: Account Manager
+    time: 2015 - 2019
+    company: A1 Medical Imaging
+    # optional
+    company_logo: 
+    details: |
+      Marketed and promoted MRI imaging services to create brand recognition and awareness in
+      the Broward region by driving referrals to the organization.
+      Identified physician and staff needs and emphasized benefits for enhancing patient caret
+# Your project portfolio
+projects:
+  intro: >
+    
+  assignments:
+    - title: 
+      # optional
+      project_logo: 
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+  toolset:
+    - name: HTML5
+      level: 50%
+
+    - name: CSS3
+      level: 50%
+
+    - name: Bootstrap
+      level: 50%
+
+    - name: Javascript
+      level: 20%
